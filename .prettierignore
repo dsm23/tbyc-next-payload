@@ -1,0 +1,17 @@
+**/payload-types.ts
+.tmp
+**/.git
+**/.hg
+**/.pnp.*
+**/.svn
+**/.yarn/**
+**/build
+**/dist/**
+**/node_modules
+**/temp
+**/docs/**
+coverage/
+lerna.json
+test-timings.json
+pnpm-lock.yaml
+

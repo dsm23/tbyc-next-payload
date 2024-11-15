@@ -1,0 +1,32 @@
+build
+dist / media
+node_modules
+.DS_Store
+.env
+.next
+.vercel
+
+# Payload default media upload directory
+public/media/
+
+# Misc
+.DS_Store
+*.pem
+
+# Settings
+.vscode/settings.json
+.idea/
+
+# Coverage
+coverage/
+
+# Cache Files
+.eslintcache
+.eslintmdcache
+.stylelintcache
+.prettiercache
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
