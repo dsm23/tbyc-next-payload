@@ -59,7 +59,7 @@ jobs:
       - name: Run Playwright tests
         run: pnpm exec playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
         env:
-          DATABASE_URI: mongodb://mongo/dsm23-next-payloadcms-template
+          DATABASE_URI: mongodb://mongo/tbyc-next-payload
           PAYLOAD_SECRET: ${{ secrets.PAYLOAD_SECRET }}
           PAYLOAD_PUBLIC_SERVER_URL: ${{ vars.PAYLOAD_PUBLIC_SERVER_URL }}
           NEXT_PUBLIC_SERVER_URL: ${{ vars.NEXT_PUBLIC_SERVER_URL }}
